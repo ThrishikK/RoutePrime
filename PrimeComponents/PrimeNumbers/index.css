@@ -1,0 +1,72 @@
+.new-main-added {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-head {
+  background-color: #001526;
+  color: #e3f4e5;
+  padding: 12px;
+  border-radius: 9px;
+}
+
+.main-container-p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.prime-num {
+  background-color: #001526;
+  color: #e3f4e5;
+}
+
+.non-prime-num {
+  border: 1px solid #001526;
+  color: #001526;
+  background-color: #e3f4e5;
+}
+
+.number {
+  width: 72px;
+  font-size: 23px;
+  text-align: center;
+  padding: 9px;
+  margin: 5px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.popup-container-factors {
+  text-align: center;
+  padding: 45px;
+  width: 360px;
+  height: 180px;
+  background-color: #e3f4e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 36px;
+  background-image: radial-gradient(#3ba3f7, #013763);
+  color: #d7eafa;
+}
+
+.popup-close-btn {
+  background-color: #c7e6ff;
+  border: 0;
+  color: #3ba3f7;
+  font-size: 18px;
+  font-weight: 700;
+  width: 72px;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  padding-right: 18px;
+  margin: 9px;
+  border-radius: 9px;
+  cursor: pointer;
+  padding: 9px;
+}
